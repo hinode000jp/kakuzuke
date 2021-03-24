@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>格付けチェック</title>
+        <link rel="stylesheet" href="kakuduke.css">
+    </head>
+    <body>
+        <section>
+            <h1 id="title"></h1>
+            <p id="question"></p>
+            <element id="picture" class="png">  
+                <img id="no1" src="" width="200" height="150">
+                <img id="no2" src="" width="200" height="150">
+            </element>      
+            <div id="ans-btn">
+                <button id="buttons1" onclick="onAnswer(1)"></button>
+                <button id="buttons2" onclick="onAnswer(0)"></button>
+            </div>
+        </section>
+        <audio id="seikai">
+            <source src="sound/seikai.mp3" type="audio/mp3">
+        </audio>
+        <audio id="fuseikai">
+            <source src="sound/fuseikai.mp3" type="audio/mp3">
+        </audio>    
+        <script src="kakuduke.js"></script>
+    </body>
+</html>

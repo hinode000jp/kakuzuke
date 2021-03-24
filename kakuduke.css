@@ -1,0 +1,41 @@
+body {
+    background-color: #0000ff;
+    background-size: cover;
+    margin: 0;
+    padding: 0 auto;
+    text-align: center;
+}
+​
+section {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+​
+#ans-btn {
+    display: flex;
+    justify-content: center;
+}
+​
+#ans-btn button {
+    font-family: sans-serif;
+    color : #ff0000;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    margin: 20px;
+}
+​
+#top-img{
+    width: 400;
+    height: 300;
+}
+#picture{ 
+    display: flex;
+    justify-content: center;
+}
+​
+#picture img{
+    width: 200px;
+    height: 150px;
+}
